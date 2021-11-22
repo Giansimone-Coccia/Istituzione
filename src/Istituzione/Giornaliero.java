@@ -15,7 +15,7 @@ public class Giornaliero extends Dipendente{
 	}
 	
 	public void calcolateRetribution() {
-		System.out.println("La retribuzione totale è di:"+this.getRetribution());
+		System.out.println("La retribuzione totale è di:"+ this.getRetribution());
 		}
 	
 }

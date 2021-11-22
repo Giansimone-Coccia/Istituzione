@@ -11,7 +11,7 @@ public class Impiegato extends Dipendente{
 	
 	public void gainPerson() {
 		System.out.println("Dipendente impiegato " + this.getName() + " residente in " + this.getAddress());
-		System.out.println("con retribuzione pari a: " + this.getAddress());
+		System.out.println("con retribuzione pari a: " + this.getRetribution());
 	}
 	
 	public void calcolateRetribution() {

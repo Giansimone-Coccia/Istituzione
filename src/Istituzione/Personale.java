@@ -28,4 +28,16 @@ public abstract class Personale {
 	public String getNumber() {
 		return number;
 	}
+	
+	public void setName(String nome) {
+		this.name = nome;
+	}
+	
+	public void setAddress(String via) {
+		this.address = via;
+	}
+	
+	public void setNumber(String num) {
+		this.number = num;
+	}
 }
