@@ -14,6 +14,7 @@ public abstract class Dipendente extends Personale{
 	}
 	
 	public abstract void gainPerson();
+	
 	public double getRetribution() {
 		return retribution;
 	}

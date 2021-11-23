@@ -18,4 +18,8 @@ public class Giornaliero extends Dipendente{
 		System.out.println("La retribuzione totale è di:"+ this.getRetribution());
 		}
 	
+	public void setDays(int days) {
+		this.days = days;
+	}
+	
 }

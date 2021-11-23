@@ -49,8 +49,11 @@ public class Main {
 							b = false;
 						}
 					}while(!b);
+					System.out.println("Inserisci bonus impiegato: ");
+					double bonus = input.nextDouble();
 					Impiegato i = new Impiegato(name, v, num, cf, ret);
 					mic.addPerson(i);
+					i.setBonus(bonus);
 				}
 				else if(n == 2) {
 					System.out.println("Inserisci nome: ");
@@ -75,8 +78,11 @@ public class Main {
 							b = false;
 						}
 					}while(!b);
+					System.out.println("Inserisci numero giorni lavorativi: ");
+					int numD = input.nextInt();
 					Giornaliero g = new Giornaliero(name, v, num, cf, ret);
 					mic.addPerson(g);
+					g.setDays(numD);
 				}
 				else if(n == 3) {
 					System.out.println("Inserisci nome: ");

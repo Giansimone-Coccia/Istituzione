@@ -15,7 +15,11 @@ public class Impiegato extends Dipendente{
 	}
 	
 	public void calcolateRetribution() {
-		System.out.println("La retribuzione totale è di:"+this.getRetribution());;
+		System.out.println("La retribuzione totale è di:"+this.getRetribution());
+	}
+	
+	public void setBonus(double bonus) {
+		this.bonus = bonus;
 	}
 	
 }
