@@ -1,7 +1,9 @@
 package Istituzione;
 
+//Class' Volontari definition that extends the class Personale
 public class Volontari extends Personale{
 	
+	//Constructor
 	public Volontari(String name, String address, String number) {
 		super(name, address, number);
 	}
@@ -11,6 +13,7 @@ public class Volontari extends Personale{
 		System.out.println("con retribuzione pari a: 0");
 	}
 	
+	//Method for calcolating the retribution
 	public void calcolateRetribution() {
 		System.out.println("La retribuzione totale è di: 0");
 	}

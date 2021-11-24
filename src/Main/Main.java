@@ -7,8 +7,10 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
+		//Input's object creation
 		Scanner input = new Scanner(System.in);
 
+		//Staff's object creation
 		Staff mic = new Staff("Microsoft", "Washington");
 
 		int scelta;

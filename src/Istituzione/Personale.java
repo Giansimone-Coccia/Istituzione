@@ -1,22 +1,26 @@
 package Istituzione;
 import java.util.Vector;
 
+//Abstract class' Personale definition
 public abstract class Personale {
 	
 	private String name;
 	private String address;
 	private String number;
 	
+	//Constructor
 	public Personale(String name, String address, String number) {
 		this.name = name;
 		this.address = address;
 		this.number = number;
 	}
 	
+	//Abstract methods
 	public abstract void gainPerson();
 	
 	public abstract void calcolateRetribution();
 	
+	//Get and set methods
 	public String getName() {
 		return name;
 	}
