@@ -1,7 +1,10 @@
 package Istituzione;
 
-/*Abstract class' "Dipendente" definition that extends the
+/**
+ * Abstract class' "Dipendente" definition that extends the
  * other abstract class Personale
+ * @author gians_ji5genm
+ *
  */
 public abstract class Dipendente extends Personale{
 	
@@ -9,7 +12,14 @@ public abstract class Dipendente extends Personale{
 	private double retribution;
 	private double baseRetribution;
 	
-	//Constructor
+	/**
+	 * Constructor
+	 * @param name
+	 * @param address
+	 * @param number
+	 * @param code
+	 * @param baseRetribution
+	 */
 	public Dipendente(String name, String address, String number, String code, double baseRetribution) {
 		super(name, address, number);
 		
@@ -17,18 +27,28 @@ public abstract class Dipendente extends Personale{
 		this.baseRetribution = baseRetribution;
 	}
 	
-	//Abstract method
+	/**
+	 * Abstract method
+	 */
 	public abstract void gainPerson();
 	
-	//Get and set methods
+	/**
+	 * Method for getting the retribution
+	 * @return
+	 */
 	public double getRetribution() {
 		return retribution;
 	}
-	
+	/**
+	 * Method for getting the base retribution
+	 * @return
+	 */
 	public double getBaseRetribution() {
 		return baseRetribution;
 	}
 	
-	//Abstract method for calcolating the retribution
+	/**
+	 * Abstract method for calcolating the retribution
+	 */
 	public abstract void calcolateRetribution();
 }
